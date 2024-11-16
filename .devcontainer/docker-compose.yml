@@ -6,7 +6,7 @@ services:
     # docker-compose.yml file (the first in the devcontainer.json "dockerComposeFile"
     # array). The sample below assumes your primary file is in the root of your project.
     #
-    image: python-playground-dev:3.9
+    image: python-playground:dev
     container_name: python
     build: .
 
