@@ -1,7 +1,7 @@
 services:
   python:
-    image: python:3.9
-    container_name: python3.9
+    image: python-playground:3.9
+    container_name: python
     build: .
     working_dir: /app
     environment:
